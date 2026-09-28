@@ -1,0 +1,15 @@
+/* danse-v1 — theme Ambre (Peach) full screen */
+/* Renommer ce fichier (danse-v2.css...) a chaque changement visuel pour casser le cache Safari iOS. */
+
+/* Panneau 1 : mission / etoile */
+.col.peach .case.star-case {
+  background: linear-gradient(180deg, #ffe3ef, #c2255c);
+  color: #6b103f;
+}
+.col.peach .case.star-case button.fait { background: #fff; color: #9d174d; border: 2px solid #ffcc33; }
+.col.peach .case.star-case button.bonus { background: #ffcc33; color: #6b103f; border: 2px solid #fff; }
+
+.case.star-case .star {
+  color: #ffd43b;
+  text-shadow: 0 3px 10px rgba(0, 0, 0, .4);
+}
